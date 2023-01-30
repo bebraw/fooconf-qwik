@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 // import { Link } from '@builder.io/qwik-city';
-import Counter from '../components/Counter/counter.tsx'
+import Counter from '../components/Counter/counter'
 
 export default component$(() => {
   return (
