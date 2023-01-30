@@ -9,7 +9,8 @@ export default component$(() => {
       <h1>
         Welcome to fooconf demo <span class="lightning">⚡️</span>
       </h1>
-      <Counter />
+      <Counter target="foo" />
+      <Counter target="bar" />
     </div>
   );
 });
